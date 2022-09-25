@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-image">
+            <img src="Imagens/cadastro.svg" alt="">
+        </div>
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Cadastre-se</h1>
+                    </div>
+                    <div class="login-button">
+                        <button><a href="#">Entrar</a></button> <hr>
+                        <button> <a href="index.html"> Home </a></button>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="firstname">Primeiro Nome</label>
+                        <input id="firstname" type="text" name="firstname" placeholder="Digite seu primeiro nome" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="lastname">Sobrenome</label>
+                        <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome" required>
+                    </div>
+                    
+                    <div class="input-box">
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="number">Celular</label>
+                        <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="password">Senha</label>
+                        <input id="password" type="password" name="password" placeholder="Digite sua senha" required>
+                    </div>
+
+
+                    <div class="input-box">
+                        <label for="confirmPassword">Confirme sua Senha</label>
+                        <input id="confirmPassword" type="password" name="confirmPassword" placeholder="Digite sua senha novamente" required>
+                    </div>
+
+                        <div class="input-box">
+                            <label for="Estado" aria-placeholder="estado"> UF </label>
+                            <select aria-label="Disabled select example" >
+                                <option selected>UF</option>
+                                <option value="1">AC</option>
+                                <option value="2">AL</option>
+                                <option value="3">AP</option>
+                                <option value="4">AM</option>
+                                <option value="5">BA</option>
+                                <option value="6">CE</option>
+                                <option value="7">ES</option>
+                                <option value="8">GO</option>
+                                <option value="9">MA</option>
+                                <option value="10">MT</option>
+                                <option value="11">MS</option>
+                                <option value="12">MG</option>
+                                <option value="13">PA</option>
+                                <option value="14">PB</option>
+                                <option value="15">PR</option>
+                                <option value="16">PE</option>
+                                <option value="17">PI</option>
+                                <option value="18">RJ</option>
+                                <option value="19">RN</option>
+                                <option value="20">RS</option>
+                                <option value="21">RO</option>
+                                <option value="22">RR</option>
+                                <option value="23">SC</option>
+                                <option value="24">SP</option>
+                                <option value="25">SE</option>
+                                <option value="26">TO</option>
+                                <option value="27">DF</option>
+                              </select>
+                        </div>
+                        <div class="input-box">
+                            <label for="city">Digite sua cidade</label>
+                            <input id="city" type="text" name="city" placeholder="Digite sua cidade" required>
+                        </div>
+<div class="input-group">
+    <input class="input-box" type="checkbox" id="chk" />
+    <p>newsletter</p>
+    <label for="chk" class="switch">
+      <span class="slider"></span>
+    </label>
+
+
+</div>
+                       
+                </div>
+                
+                <div class="gender-inputs">
+                    <div class="gender-title">
+                        <h6>Gênero</h6>
+                    </div>
+
+                    <div class="gender-group">
+                        <div class="gender-input">
+                            <input id="female" type="radio" name="gender">
+                            <label for="female">Feminino</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input id="male" type="radio" name="gender">
+                            <label for="male">Masculino</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input id="others" type="radio" name="gender">
+                            <label for="others">Outros</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input id="none" type="radio" name="gender">
+                            <label for="none">Prefiro não dizer</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="continue-button">
+                    <button><a href="#">Continuar</a> </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
