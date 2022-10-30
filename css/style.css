@@ -17,12 +17,14 @@ body {
 
 .container {
     width: 80%;
-    height: auto;
     display: flex;
+
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
 }
 
 .form-image {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
     width: 50%;
     display: flex;
     justify-content: center;
@@ -43,6 +45,7 @@ body {
     align-items: center;
     background-color: #fff;
     padding: 3rem;
+    margin-top: 7rem;
 }
 
 .form-header {
@@ -81,7 +84,6 @@ body {
     height: 0.3rem;
     background-color: #536DFE;
     margin: 0 auto;
-    position: absolute;
     border-radius: 10px;
 }
 
@@ -150,6 +152,10 @@ body {
     font-size: 0.81rem;
     font-weight: 600;
     color: #000000c0;
+}
+
+.cancel-button {
+    background-color: brown !important;
 }
 
 .continue-button button {
